@@ -63,7 +63,7 @@ def displayBoard(missedLetters, correctLetters, secretWord):
     print()
     
     # Print missed letters to user
-    print("Missed letters: ", end = " ")
+    print("Missed letters: ", end = "")
     for letter in missedLetters:
         print(letter, end = " ")
     print()
