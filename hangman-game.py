@@ -150,7 +150,7 @@ while(True):
             print('You have run out of guesses!\nAfter ' + str(len(missedLetters)) + ' missed guesses and ' + str(len(correctLetters)) + ' correct guesses, the word was "' + secretWord + '"')
             gameIsDone = True
            
-    # If gameIsDone comes back as true, reset all values to blank and get a new word. If not, break infinite loop and end game.
+    # If gameIsDone comes back as true, then reset all values to blank and get a new word. If gameIsDone comes back as false, break infinite loop and end game.
     if gameIsDone:
         if playAgain():
             missedLetters = ''
